@@ -1,0 +1,14 @@
+.persona{
+  border: solid 2px rgb(34, 30, 91);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(246, 230, 8);
+  margin: 1rem;
+}
+
+.texto{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
