@@ -4,6 +4,8 @@ import Contador from "./Components/Contador.js";
 import Personas from "./Components/Personas.js";
 import Crear from "./Components/Crear.js";
 import "./App.css";
+import Movies from "./Components/Movies.js";
+import SearchBar from "./Components/SearchBar";
 
 const gente2 = [...gente];
 
@@ -23,6 +25,11 @@ function App() {
       ))} */}
       <hr />
       <Contador />
+      <hr />
+      <Movies />
+      <hr />
+      <SearchBar />
+      <hr />
     </div>
   );
 }
